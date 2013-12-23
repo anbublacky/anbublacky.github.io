@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+safe: true
+lsi: false
+name: love-blacky
 markdown: redcarpet
 pygments: true
