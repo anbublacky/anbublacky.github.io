@@ -77,7 +77,6 @@
     $(document).on('cancel', '.remodal', function () {
         console.log('cancel');
     });
-    $('#bottom_widget').load('bottom/index.html')
 
 //    You can open or close it like this:
 //    $(function () {
@@ -89,6 +88,7 @@
     //  Or init in this way:
     var inst = $('[data-remodal-id=modal2]').remodal();
     //  inst.open();
+        $('#bottom_widget').load('bottom/index.html')
 </script>
 </body>
 </html>
