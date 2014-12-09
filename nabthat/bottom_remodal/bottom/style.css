@@ -1,0 +1,131 @@
+.price-widget{
+  max-width:335px;
+  margin:0;  
+  font-family:lato,sans-serif;
+  font-size: 15px;
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  right: 10px;
+  box-shadow:  4px 2px 15px 0px #888888;
+}
+
+.mask{
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 10px;
+}
+.close{
+  position: absolute;
+  right: 6px;
+  top: 8px;
+  cursor: pointer;
+  padding:10px;
+}
+.blue-strip{
+  background-color:#196edf;
+  padding:12px;
+  color:#fff;
+  text-align:center;
+}
+.blue-head h4{
+  font-size:1.3em;
+  font-weight:900;
+  margin:0;  
+}
+.blue-head p{
+  margin:0; 
+  font-size:1.1em;
+}
+.blue-description p{
+  background-color:#196edf;
+  font-weight:600;
+  color:#fff;
+  padding:12px;
+  text-align:center;
+  margin:0;
+}
+.price-works{
+  background-color:#fff;
+}
+.price-works h4{
+  color:#002d90;
+  font-size:1.3em;
+  text-align:center;
+  font-weight: 900;
+}
+.price-works p{
+  color:#002d90;
+  font-weight:600;
+  padding-left:18%;  
+  margin-bottom: 20px;
+}
+.price-works p span {
+  padding: 5px 10px;
+  border-radius: 30px;
+  background: #002d90;
+  margin-right: 22px;
+  color: #fff;
+}
+.price-works b{
+  color:#000000;
+  font-weight:900;
+  font-size:1.1em; 
+}
+.price-remember {
+  text-align:center;
+  color:#002d90;
+  font-weight:600;
+  padding: 5px 10px 0px 10px; 
+}
+.price-bottom{
+  background-color:#f58227;
+  padding: 17px 10px 17px 10px;
+  text-align:center; 
+}
+.price-bottom a{ 
+  color:#f58227;
+  font-size:1.3em;
+  font-weight:bold;
+  border: none;
+  border-radius:2px;
+  padding:6px 35px 6px 22px;
+  text-decoration:none; 
+  background:url(imges/button.png) #fff no-repeat 131px center;
+} 
+img{
+.price-bottom
+}
+.car-img{
+  float:left;
+}
+.nab-img{
+  float:right;
+}
+.blue-bottom{
+  background-color:#002d90;
+  height:10px; 
+} 
+@media screen and (max-width: 320px) {
+  .mask{
+  display:none;
+  }
+  .blue-description{
+  display:none;
+  }
+  .blue-head p{
+  display:none;
+  }
+  .price-works{
+  display:none;
+  }
+  .price-remember{
+   display:none;
+  }
+}
+@media screen and (max-width: 320px) and (orientation : landscape){
+  .blue-head h4{
+  font-size:1em;
+  }
+}

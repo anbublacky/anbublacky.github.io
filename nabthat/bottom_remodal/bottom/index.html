@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){ 
+  $(".slide-area").hide();
+  $(".close").hide();
+  $(".close").click(function(){
+    $(".slide-area").slideUp("slow");  
+    $(".close").hide();
+  });
+   $(".blue-strip,.mask").click(function(){
+    $(".slide-area").slideDown("slow");
+     $(".close").show();
+  });
+});
+</script>
+</head>
+<body>   
+<div class="price-widget">
+  <div class="blue-strip-img">
+     <img src="imges/mask.png" class="mask"  />
+     <img src="imges/minimize.png" class="close" />
+  </div>
+  <div class="blue-strip">
+    <div class="blue-head">
+      <h4>Get Our Best Price</h4>
+      <p>Without Giving Up Your Personal Info.</p>
+    </div>
+  </div>
+  <div class="slide-area">
+    <div class="blue-description">
+      <p>You value your privacy. So do we... Culver City Honda has teamed up with NabThat so you can make an anonymous offer on a new car.</p>
+    </div>  
+    <div class="price-works">
+      <h4>How It Works</h4>
+      <p><span>1</span><b>Pick Your Car</b></p>
+      <p><span>2</span><b>Name Your Terms</b></p>
+      <p><span>3</span><b>Get An offer</b></p>
+    </div>
+    <p class="price-remember">Remember, NabThat will never share your info with the dealer until you are happy with your deal. 
+    </p>    
+    <div class="price-bottom">  
+      <img class="car-img" src="imges/car.png"/> 
+      <a href="#">Get Started</a>
+      <img class="nab-img" src="imges/nab.png"/> 
+    </div>
+  </div>
+  <div class="blue-bottom"></div>
+</div>
+</body>
+</html>
