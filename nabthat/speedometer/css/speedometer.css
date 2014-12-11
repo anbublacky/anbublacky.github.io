@@ -1,0 +1,148 @@
+body{
+  margin:0 auto;
+}
+ul {
+  list-style:none;
+  line-height:10px;
+  font-size:14px;
+  margin-top:30px;
+}
+.main {
+  width:720px;
+  margin:0 auto;
+  margin-top:50px;
+  font-family:arial;
+}
+.main1{
+  width:210px;
+  height:100px;
+  float:left;
+  background-color:#e5e5e5;  
+}
+.main h2{
+  color:#3e3e3e;
+}
+.main2 ul{
+  margin-left:-15px;
+}
+.main2 h2{
+  color:#0e9b57;
+}
+.main3{
+  width:300px;
+  float:left;
+  height:100px;
+  background-color:#e5e5e5;
+}
+.envelope{
+  background:url('../pp.png') no-repeat;
+  position: relative;
+  margin:0 auto;
+  bottom:0;
+  font-size:0;
+  top:-25px !important;
+  background-size:100%;
+  width:100% !important;
+}
+#myValues{
+  width:300px;
+}
+#speedometerWraper-myValues .speedNobe{
+  position:absolute;
+  width:100%;
+  z-index:10;
+  font-size:0; 
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  bottom:0;
+  top: 39%;
+}
+.speedPosition {
+  display:none;
+}
+.speedNobe div{
+  background:#d7925b;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.numb{
+  display:none;
+}
+.nob{
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -moz-transition: opacity 1s;	
+  position: absolute;
+  opacity: 0.5;
+  display:none;      
+}
+input{
+  margin-top:-30px;
+  width:60px;
+}
+.nob{
+  background:black;
+  color:black;
+  margin-top:-40px;	
+}
+#speedometerWraper-myValues{
+  display: block;
+  height: 140px;
+  position: relative;
+}
+.b{
+ width:400px;
+ margin:auto;
+ height:10px; 
+ font-weight:bold;
+}
+.b1{
+ margin-top:10px;
+ float:left;
+ margin-left:30px;
+}
+.b2{
+ float:right;
+}
+@media  screen and (max-width:740px)
+{
+  .main 
+    {
+      width:300px;
+    }
+  .main1
+    {
+      width:100%;
+    } 
+  .main3
+    {
+      margin-top:50px;
+      margin-bottom:70px;
+      background:none;
+    }
+  .envelope
+    {
+      margin-top:10px;
+    }
+   ul 
+    {    
+      text-align:center;
+      margin-top:30px;
+    }
+   .b{
+       width:300px;
+     }
+   .b1{
+       margin-top:-140px;
+       margin-left:-5px;
+      }
+   .b2{
+       margin-left:-50px;
+      }
+}
+
+
